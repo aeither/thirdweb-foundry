@@ -10,6 +10,6 @@ contract ContractScript is Script {
 
     function run() public {
         vm.broadcast();
-        new Contract();
+        new Contract("Token", "TKN");
     }
 }

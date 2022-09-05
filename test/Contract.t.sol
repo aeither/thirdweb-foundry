@@ -8,7 +8,7 @@ contract ContractTest is Test {
     Contract myContract;
 
     function setUp() public {
-        myContract = new Contract();
+        myContract = new Contract("Token", "TKN");
     }
 
     function testExample() public {

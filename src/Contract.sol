@@ -1,10 +1,12 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import "@thirdweb-dev/contracts/token/TokenERC20.sol";
+import "@thirdweb-dev/contracts/base/ERC20Base.sol";
 
-contract Contract is TokenERC20 {
-    constructor() {}
+contract Contract is ERC20Base {
+    constructor(string memory _name, string memory _symbol)
+        ERC20Base(_name, _symbol)
+    {}
 
     fallback() external payable {}
 
