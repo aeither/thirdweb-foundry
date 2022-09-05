@@ -1,0 +1,10 @@
+@chainlink/contracts/src/=lib/contracts/node_modules/@chainlink/contracts/src/
+@ds-test/=lib/contracts/lib/ds-test/src/
+@openzeppelin/=lib/contracts/node_modules/@openzeppelin/
+@std/=lib/contracts/lib/forge-std/src/
+@thirdweb-dev/=node_modules/@thirdweb-dev/
+contracts/=lib/contracts/contracts/
+ds-test/=lib/contracts/lib/ds-test/src/
+erc721a-upgradeable/=lib/contracts/node_modules/erc721a-upgradeable/
+erc721a/=lib/contracts/node_modules/erc721a/
+forge-std/=lib/forge-std/src/
