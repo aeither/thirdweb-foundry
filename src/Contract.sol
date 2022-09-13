@@ -13,8 +13,6 @@ contract Contract is ERC20Base {
     receive() external payable {}
 
     function mintWithWei() public payable {
-        // only minter can mint
-        // mintTo(msg.sender, msg.value);
 
         _mint(msg.sender, msg.value);
     }
